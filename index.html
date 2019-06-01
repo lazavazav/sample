@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Web Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <h1 id="top">My Web Page</h1>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Web Development</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#forms">Forms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#funstuff">FunStuff</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#images">Images</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#cards">Cards</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+
+  <a href=#top><i class="fas fa-arrow-up"></i></a>
+  
+ <div id="forms">Forms
+  <div class="unstyled-form">
+    <form action="">
+      <label for="firstname">What is your first name?</label><br>
+      <input type="text" name="firstname"><br>
+      <p>
+        <label for="where are you">Where are you?</label><br>
+
+        <input type="radio" name="where are you" value="I am everywhere">I am everywhere<br>
+
+        <input type="radio" name="where are you" value="I am nowhere">I am nowhere<br>
+
+        <input type="radio" name="where are you" value="No, where are you">No, where are you?<br>
+
+      </p>
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+
+  <div class="form-style">
+    <h1>Sign up Now!<span>Fill out this form.</span>
+    </h1>
+    <form action="">
+      <div class="section">First Name & Address
+      </div>
+      <div class="inner-wrap">
+        <label>
+          Your Full Name
+          <input type="text" name="field1"/>
+        </label>
+        <label>
+          Address<input type="textarea" name="field2"></textarea>
+        </label>
+        <label>Your email
+          <input type="email" name="email" placeholder="leslie@example.com" required />
+        </label>
+      </div>
+      <div class="button-section">
+        <input type="submit" name="Sign up"/>
+      </div>
+    </form>
+  </div>
+</div>
+
+  <div class="drop-menu">
+<ul class="drop-list">
+  <li class="list">
+    <a class="active" href="#home">Home</a></li>
+    <li class="list">
+      <a href="#blog">Blog</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Dropdown</a>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </li>
+</ul>
+  </div>
+  
+<div id="funstuff">
+  <div class="shadow-text"><h1>This is some shadow text</h1></div>
+
+  <div class="shadow-div"></div>
+  <div class="shadow-div2"></div>
+
+  <div class="animate-me"></div>
+  <div class="animate-with-prefix"></div>
+  <div class="gradient"></div>
+</div>
+
+<div id="images">
+  <div class="clear">
+    <img src="golden.jpg" alt="dog">
+    <h1 class="title-over">Title on top of image</h1>
+  </div>
+  <div>
+   <figure class="imgCaption">
+     <figcaption class="caption">This is a caption</figcaption>
+    <img src="Chester.jpg" alt="dog" height="200px" width="200px">
+   </figure> 
+  </div>
+
+ <div class="container">
+  <img src="Chester.jpg" alt="dog">
+  <img src="golden.jpg" alt="dog">
+  <img src="Chester.jpg" alt="dog">
+  <img src="golden.jpg" alt="dog">
+  <img src="Chester.jpg" alt="dog">
+  <img src="golden.jpg" alt="dog">
+  </div> 
+</div>
+
+<div id="cards" class="card-container">
+
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="puppy2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="puppy3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="puppy2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+         </div>
+
+
+</div>
+<footer id="bottom">
+ 
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+</body>
+</html>
